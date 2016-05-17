@@ -1,0 +1,15 @@
+//
+//  TestOne.m
+//  JSONDEMO
+//
+//  Created by macbook on 16/5/17.
+//  Copyright © 2016年 likejin. All rights reserved.
+//
+
+#import "TestOne.h"
+
+@implementation TestOne
+- (NSString *)description{
+    return [NSString stringWithFormat:@"uid%@ %@ %@ %@",_uid,_screen_name,_introduction,_fans_count];
+}
+@end

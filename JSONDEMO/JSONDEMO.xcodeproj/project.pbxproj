@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98C65065BEA3A54B327F5755 /* libPods-JSONDEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F52DE6566EAF03A332300C29 /* libPods-JSONDEMO.a */; };
+		FA3D144A1CEB177400263F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D14491CEB177400263F99 /* main.m */; };
+		FA3D144D1CEB177400263F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D144C1CEB177400263F99 /* AppDelegate.m */; };
+		FA3D14501CEB177400263F99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D144F1CEB177400263F99 /* ViewController.m */; };
+		FA3D14531CEB177400263F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D14511CEB177400263F99 /* Main.storyboard */; };
+		FA3D14551CEB177400263F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3D14541CEB177400263F99 /* Assets.xcassets */; };
+		FA3D14581CEB177400263F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3D14561CEB177400263F99 /* LaunchScreen.storyboard */; };
+		FA3D14641CEB2DA800263F99 /* TestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D14631CEB2DA800263F99 /* TestOne.m */; };
+		FA3D14681CEB561200263F99 /* NSObject+JJSonEF.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3D14671CEB561200263F99 /* NSObject+JJSonEF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50845900EFE39CF9AE9BF3B2 /* Pods-JSONDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONDEMO/Pods-JSONDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		6285EB57AE8FCABF59FC58E9 /* Pods-JSONDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONDEMO/Pods-JSONDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		F52DE6566EAF03A332300C29 /* libPods-JSONDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSONDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3D14451CEB177400263F99 /* JSONDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3D14491CEB177400263F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA3D144B1CEB177400263F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA3D144C1CEB177400263F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA3D144E1CEB177400263F99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA3D144F1CEB177400263F99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA3D14521CEB177400263F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3D14541CEB177400263F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3D14571CEB177400263F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3D14591CEB177400263F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3D14621CEB2DA800263F99 /* TestOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOne.h; sourceTree = "<group>"; };
+		FA3D14631CEB2DA800263F99 /* TestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOne.m; sourceTree = "<group>"; };
+		FA3D14661CEB561200263F99 /* NSObject+JJSonEF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJSonEF.h"; sourceTree = "<group>"; };
+		FA3D14671CEB561200263F99 /* NSObject+JJSonEF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJSonEF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3D14421CEB177400263F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98C65065BEA3A54B327F5755 /* libPods-JSONDEMO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B87705E0EEF8EE9C3A57CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52DE6566EAF03A332300C29 /* libPods-JSONDEMO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730567C09A828AE4D1846ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50845900EFE39CF9AE9BF3B2 /* Pods-JSONDEMO.debug.xcconfig */,
+				6285EB57AE8FCABF59FC58E9 /* Pods-JSONDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA3D143C1CEB177400263F99 = {
+			isa = PBXGroup;
+			children = (
+				FA3D14471CEB177400263F99 /* JSONDEMO */,
+				FA3D14461CEB177400263F99 /* Products */,
+				730567C09A828AE4D1846ADE /* Pods */,
+				46B87705E0EEF8EE9C3A57CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3D14461CEB177400263F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D14451CEB177400263F99 /* JSONDEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3D14471CEB177400263F99 /* JSONDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D14651CEB561200263F99 /* JJSonEF */,
+				FA3D144B1CEB177400263F99 /* AppDelegate.h */,
+				FA3D144C1CEB177400263F99 /* AppDelegate.m */,
+				FA3D144E1CEB177400263F99 /* ViewController.h */,
+				FA3D144F1CEB177400263F99 /* ViewController.m */,
+				FA3D14511CEB177400263F99 /* Main.storyboard */,
+				FA3D14541CEB177400263F99 /* Assets.xcassets */,
+				FA3D14561CEB177400263F99 /* LaunchScreen.storyboard */,
+				FA3D14591CEB177400263F99 /* Info.plist */,
+				FA3D14481CEB177400263F99 /* Supporting Files */,
+				FA3D14621CEB2DA800263F99 /* TestOne.h */,
+				FA3D14631CEB2DA800263F99 /* TestOne.m */,
+			);
+			path = JSONDEMO;
+			sourceTree = "<group>";
+		};
+		FA3D14481CEB177400263F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D14491CEB177400263F99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA3D14651CEB561200263F99 /* JJSonEF */ = {
+			isa = PBXGroup;
+			children = (
+				FA3D14661CEB561200263F99 /* NSObject+JJSonEF.h */,
+				FA3D14671CEB561200263F99 /* NSObject+JJSonEF.m */,
+			);
+			path = JJSonEF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3D14441CEB177400263F99 /* JSONDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3D145C1CEB177400263F99 /* Build configuration list for PBXNativeTarget "JSONDEMO" */;
+			buildPhases = (
+				3753A751990B8B33756130F9 /* Check Pods Manifest.lock */,
+				FA3D14411CEB177400263F99 /* Sources */,
+				FA3D14421CEB177400263F99 /* Frameworks */,
+				FA3D14431CEB177400263F99 /* Resources */,
+				B7A39E2E6F31EC1F7429443E /* Embed Pods Frameworks */,
+				B54F48FA5C0CED8A4D64E804 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONDEMO;
+			productName = JSONDEMO;
+			productReference = FA3D14451CEB177400263F99 /* JSONDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3D143D1CEB177400263F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = likejin;
+				TargetAttributes = {
+					FA3D14441CEB177400263F99 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FA3D14401CEB177400263F99 /* Build configuration list for PBXProject "JSONDEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3D143C1CEB177400263F99;
+			productRefGroup = FA3D14461CEB177400263F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3D14441CEB177400263F99 /* JSONDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3D14431CEB177400263F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D14581CEB177400263F99 /* LaunchScreen.storyboard in Resources */,
+				FA3D14551CEB177400263F99 /* Assets.xcassets in Resources */,
+				FA3D14531CEB177400263F99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3753A751990B8B33756130F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B54F48FA5C0CED8A4D64E804 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONDEMO/Pods-JSONDEMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A39E2E6F31EC1F7429443E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONDEMO/Pods-JSONDEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3D14411CEB177400263F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D14501CEB177400263F99 /* ViewController.m in Sources */,
+				FA3D144D1CEB177400263F99 /* AppDelegate.m in Sources */,
+				FA3D144A1CEB177400263F99 /* main.m in Sources */,
+				FA3D14681CEB561200263F99 /* NSObject+JJSonEF.m in Sources */,
+				FA3D14641CEB2DA800263F99 /* TestOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA3D14511CEB177400263F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3D14521CEB177400263F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3D14561CEB177400263F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3D14571CEB177400263F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3D145A1CEB177400263F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA3D145B1CEB177400263F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3D145D1CEB177400263F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50845900EFE39CF9AE9BF3B2 /* Pods-JSONDEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.likejin.cn.JSONDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA3D145E1CEB177400263F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6285EB57AE8FCABF59FC58E9 /* Pods-JSONDEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.likejin.cn.JSONDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3D14401CEB177400263F99 /* Build configuration list for PBXProject "JSONDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D145A1CEB177400263F99 /* Debug */,
+				FA3D145B1CEB177400263F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3D145C1CEB177400263F99 /* Build configuration list for PBXNativeTarget "JSONDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3D145D1CEB177400263F99 /* Debug */,
+				FA3D145E1CEB177400263F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3D143D1CEB177400263F99 /* Project object */;
+}
